@@ -16,7 +16,7 @@ const Container = styled.div`
   margin: 0 auto;
   /* background-color: #000; */
 
-  @media (max-width: 600px) {
+  @media (max-width: 375px) {
     width: 100%;
   }
 `;
