@@ -1,11 +1,13 @@
 import Navbar from "./components/Navbar";
-import Global from "./components/styles/globalStyle";
+import { Global, Container } from "./components/styles/globalStyle";
 
 function App() {
   return (
     <>
       <Global />
-      <Navbar />
+      <Container>
+        <Navbar />
+      </Container>
     </>
   );
 }

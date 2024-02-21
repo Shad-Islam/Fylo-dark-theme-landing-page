@@ -1,12 +1,22 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
-body{
-background-color: aqua;
-height: 100vh;
-width: 100%;
-}
-
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 `;
 
-export default Global;
+// Container styled component
+const Container = styled.div`
+  width: 1440px;
+  margin: 0 auto;
+  background-color: hsl(218, 28%, 13%);
+
+  @media (max-width: 375px) {
+    width: 100%;
+  }
+`;
+
+export { Global, Container };
