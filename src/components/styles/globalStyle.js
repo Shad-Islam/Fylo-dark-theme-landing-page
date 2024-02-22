@@ -5,6 +5,8 @@ const Global = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: hsl(218, 28%, 13%);
+
   }
 `;
 
@@ -12,7 +14,6 @@ const Global = createGlobalStyle`
 const Container = styled.div`
   width: 1440px;
   margin: 0 auto;
-  background-color: hsl(218, 28%, 13%);
 
   @media (max-width: 375px) {
     width: 100%;
