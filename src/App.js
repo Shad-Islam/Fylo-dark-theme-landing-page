@@ -1,3 +1,4 @@
+import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
 import { Global, Container } from "./components/styles/globalStyle";
 
@@ -7,6 +8,7 @@ function App() {
       <Global />
       <Container>
         <Navbar />
+        <Banner />
       </Container>
     </>
   );
