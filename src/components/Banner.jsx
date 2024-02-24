@@ -1,7 +1,8 @@
 import React from "react";
+import { Text } from "./styles/banner.style";
 
 function Banner() {
-  return <h1>Banner</h1>;
+  return <Text>Banner</Text>;
 }
 
 export default Banner;
