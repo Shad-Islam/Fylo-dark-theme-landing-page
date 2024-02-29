@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import { Hhi } from "./styles/footer.style";
 
 function Footer() {
-  return (
-    <div>Footer</div>
-  )
+  return <Hhi>Footer</Hhi>;
 }
 
-export default Footer
+export default Footer;
