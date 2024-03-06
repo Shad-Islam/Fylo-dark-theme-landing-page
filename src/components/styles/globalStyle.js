@@ -5,10 +5,11 @@ const Global = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: hsl(218, 28%, 13%);
 
   }
 `;
+
+
 
 // Container styled component
 const Container = styled.div`
