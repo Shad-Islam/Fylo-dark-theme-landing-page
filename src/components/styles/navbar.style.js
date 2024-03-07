@@ -22,7 +22,7 @@ const MenuContainer = styled.div`
 `;
 
 const MenuText = styled.a`
-  color: hsl(0, 0%, 70%);
+  color: hsl(0, 0%, 100%);
   text-decoration: none;
 
   &:hover {
