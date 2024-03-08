@@ -9,11 +9,10 @@ const Global = createGlobalStyle`
   }
 `;
 
-
-
 // Container styled component
 const Container = styled.div`
   width: 1440px;
+  padding: 20px;
   margin: 0 auto;
 
   @media (max-width: 375px) {
