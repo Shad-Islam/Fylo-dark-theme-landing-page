@@ -3,7 +3,7 @@ import styled from "styled-components";
 const NavbarContainer = styled.div`
   width: 100%;
   display: flex;
-  margin-top: 30px;
+  margin-top: 20px;
   justify-content: space-between;
   /* background-color: aquamarine; */
 `;
@@ -16,8 +16,8 @@ const MenuContainer = styled.div`
   gap: 50px;
   width: 50%;
   display: flex;
-  justify-content: end;
   align-items: center;
+  justify-content: end;
   /* background-color: red; */
 `;
 

@@ -1,6 +1,5 @@
 import React from "react";
 import illustration from "../images/illustration-intro.png";
-
 import {
   BannerText,
   BannerImage,

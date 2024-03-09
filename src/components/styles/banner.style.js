@@ -4,6 +4,7 @@ const BannerHeading = styled.h1`
   margin-bottom: 40px;
   color: hsl(0, 0%, 100%);
 `;
+
 const BannerText = styled.h4`
   line-height: 25px;
   color: hsl(0, 0%, 85%);
@@ -12,7 +13,7 @@ const BannerText = styled.h4`
 const BannerContainer = styled.div`
   width: 100%;
   display: flex;
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -21,6 +22,7 @@ const BannerContainer = styled.div`
 const BannerImage = styled.img`
   margin-bottom: 50px;
 `;
+
 const BannerButton = styled.button`
   border: 0px;
   outline: 0px;
