@@ -6,7 +6,6 @@ const BannerHeading = styled.h1`
 `;
 const BannerText = styled.h4`
   line-height: 25px;
-  background-color: hsl(216, 53%, 9%);
   color: hsl(0, 0%, 85%);
 `;
 
@@ -23,10 +22,10 @@ const BannerImage = styled.img`
   margin-bottom: 50px;
 `;
 const BannerButton = styled.button`
-  font-size: 15px;
   border: 0px;
   outline: 0px;
   margin: 50px;
+  font-size: 15px;
   cursor: pointer;
   padding: 10px 40px;
   border-radius: 15px;
