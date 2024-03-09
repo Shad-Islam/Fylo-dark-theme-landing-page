@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Global, Container } from "./components/styles/globalStyle";
@@ -10,6 +11,7 @@ function App() {
       <Container>
         <Navbar />
         <Banner />
+        <Feature />
         <Footer />
       </Container>
     </>
