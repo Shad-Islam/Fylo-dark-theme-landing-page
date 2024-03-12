@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
+import {
+  FeaturesRow,
+  FeaturesContainer,
+  FeaturesItem,
+} from "./styles/feature.style";
 
 function Feature() {
   return (
-    <div>Feature</div>
-  )
+    <>
+      <FeaturesContainer>
+        <FeaturesRow>
+          <FeaturesItem></FeaturesItem>
+          <FeaturesItem></FeaturesItem>
+        </FeaturesRow>
+        <FeaturesRow>
+          <FeaturesItem></FeaturesItem>
+          <FeaturesItem></FeaturesItem>
+        </FeaturesRow>
+      </FeaturesContainer>
+    </>
+  );
 }
 
-export default Feature
+export default Feature;
