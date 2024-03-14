@@ -55,8 +55,8 @@ export {
   FeaturesRow,
   FeaturesItem,
   FeaturesItemText,
+  FeaturesItemIcon,
   FeaturesItemImage,
   FeaturesItemTitle,
-  FeaturesItemIcon,
   FeaturesContainer,
 };

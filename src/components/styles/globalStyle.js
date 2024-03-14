@@ -13,7 +13,7 @@ const Global = createGlobalStyle`
 const Container = styled.div`
   width: 1440px;
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 10px 30px;
 
   @media (max-width: 375px) {
     width: 100%;

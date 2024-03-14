@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import Description from "./components/Description";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Banner />
         <Feature />
+        <Description />
         <Footer />
       </Container>
     </>
