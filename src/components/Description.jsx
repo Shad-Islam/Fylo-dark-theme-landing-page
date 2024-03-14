@@ -4,12 +4,13 @@ import {
   DescriptionContainer,
   DescriptionTextContent,
 } from "./styles/description.style";
+import StayProductive from "../images/illustration-stay-productive.png";
 
 function Description() {
   return (
     <>
       <DescriptionContainer>
-        <DescriptionImage></DescriptionImage>
+        <DescriptionImage src={StayProductive} />
         <DescriptionTextContent></DescriptionTextContent>
       </DescriptionContainer>
     </>
