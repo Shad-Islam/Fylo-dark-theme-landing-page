@@ -3,6 +3,7 @@ import Description from "./components/Description";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Testimonial from "./components/Testimonial";
 import { Global, Container } from "./components/styles/globalStyle";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Banner />
         <Feature />
         <Description />
+        <Testimonial />
         <Footer />
       </Container>
     </>
