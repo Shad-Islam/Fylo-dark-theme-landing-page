@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 const DescriptionContainer = styled.div`
+  gap: 140px;
   display: flex;
   /* background-color: aqua; */
   margin-top: 20px;
-  /* justify-content: space-around; */
+  justify-content: space-evenly;
 `;
 
 const DescriptionImagePart = styled.div`
-  width: 50%;
+  /* width: 50%; */
   /* padding-left: 20px; */
   /* background-color: blueviolet; */
 `;

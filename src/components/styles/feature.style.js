@@ -17,7 +17,6 @@ const FeaturesRow = styled.div`
 
   &:last-child {
     /* background-color: rebeccapurple; */
-
   }
 `;
 
