@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Description from "./components/Description";
+import Email from "./components/Email";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -16,6 +17,7 @@ function App() {
         <Feature />
         <Description />
         <Testimonial />
+        <Email />
         <Footer />
       </Container>
     </>
