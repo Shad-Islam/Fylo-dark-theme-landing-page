@@ -9,18 +9,24 @@ const TestimonialContainer = styled.div`
 const TestimonialCard = styled.div`
   width: 350px;
   height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: hsl(219, 30%, 18%);
 `;
 const TestimonialText = styled.p`
   color: hsl(0, 0%, 85%);
+  font-size: 15px;
 `;
 const TestimonialProfile = styled.div`
   width: 100%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   display: flex;
+  gap: 10px;
 `;
 const TestimonialProfileImageSection = styled.div`
-  background-color: blue;
+  /* background-color: blue; */
 `;
 const TestimonialProfileImage = styled.img`
   width: 50px;
@@ -28,9 +34,19 @@ const TestimonialProfileImage = styled.img`
   border-radius: 50%;
   /* box-sizing: border-box; */
 `;
-const TestimonialProfileTextSection = styled.div``;
-const TestimonialProfileName = styled.h5``;
-const TestimonialProfileBio = styled.p``;
+const TestimonialProfileTextSection = styled.div`
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
+const TestimonialProfileName = styled.h5`
+  color: hsl(0, 0%, 100%);
+`;
+const TestimonialProfileBio = styled.p`
+  font-size: 12px;
+  color: hsl(0, 0%, 85%);
+`;
 
 export {
   TestimonialText,
