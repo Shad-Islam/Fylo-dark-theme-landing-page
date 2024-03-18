@@ -17,8 +17,18 @@ const TestimonialText = styled.p`
 const TestimonialProfile = styled.div`
   width: 100%;
   background-color: antiquewhite;
+  display: flex;
 `;
-const TestimonialProfileImage = styled.img``;
+const TestimonialProfileImageSection = styled.div`
+  background-color: blue;
+`;
+const TestimonialProfileImage = styled.img`
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* box-sizing: border-box; */
+`;
+const TestimonialProfileTextSection = styled.div``;
 const TestimonialProfileName = styled.h5``;
 const TestimonialProfileBio = styled.p``;
 
@@ -30,4 +40,6 @@ export {
   TestimonialProfileImage,
   TestimonialProfileName,
   TestimonialProfileBio,
+  TestimonialProfileImageSection,
+  TestimonialProfileTextSection,
 };

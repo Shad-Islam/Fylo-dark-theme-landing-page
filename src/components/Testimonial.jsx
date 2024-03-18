@@ -7,7 +7,11 @@ import {
   TestimonialProfileImage,
   TestimonialProfileName,
   TestimonialProfileBio,
+  TestimonialProfileImageSection,
+  TestimonialProfileTextSection,
 } from "./styles/testimonial.styled";
+
+import profile1 from "../images/profile1.jpg";
 
 function Testimonial() {
   return (
@@ -19,10 +23,18 @@ function Testimonial() {
             Since making the switch our team has become a well-olled
             collaboration machine.
           </TestimonialText>
-          <TestimonialProfile></TestimonialProfile>
+          <TestimonialProfile>
+            <TestimonialProfileImageSection>
+              <TestimonialProfileImage src={profile1} />
+            </TestimonialProfileImageSection>
+            <TestimonialProfileTextSection>
+              <TestimonialProfileName>Satish Patel</TestimonialProfileName>
+              <TestimonialProfileBio>
+                Founder & CEO, Huddle
+              </TestimonialProfileBio>
+            </TestimonialProfileTextSection>
+          </TestimonialProfile>
         </TestimonialCard>
-        {/* <TestimonialCard></TestimonialCard>
-        <TestimonialCard></TestimonialCard> */}
       </TestimonialContainer>
     </>
   );
