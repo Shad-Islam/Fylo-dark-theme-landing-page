@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const EmailContainer = styled.div`
-  gap: 20px;
+  gap: 30px;
   width: 70%;
-  height: 200px;
+  height: 250px;
   margin: 0 auto;
   border-radius: 5px;
   display: flex;
@@ -15,6 +15,7 @@ const EmailContainer = styled.div`
 `;
 
 const EmailHeading = styled.h2`
+  font-size: 28px;
   color: hsl(0, 0%, 100%);
 `;
 const EmailText = styled.p`
