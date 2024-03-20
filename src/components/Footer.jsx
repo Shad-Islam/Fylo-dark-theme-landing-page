@@ -1,8 +1,14 @@
 import React from "react";
-import { FooterArea } from "./styles/footer.style";
+import { FooterArea, FooterContainer } from "./styles/footer.style";
 
 function Footer() {
-  return <FooterArea></FooterArea>;
+  return (
+    <>
+      <FooterArea>
+        <FooterContainer></FooterContainer>
+      </FooterArea>
+    </>
+  );
 }
 
 export default Footer;
