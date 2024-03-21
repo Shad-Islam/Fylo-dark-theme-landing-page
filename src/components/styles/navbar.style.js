@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const NavArea = styled.div`
   width: 100%;
-  background-color: aqua;
+  background-color: #1c2230;
   padding: 10px 30px;
 `;
 
@@ -11,7 +11,7 @@ const NavbarContainer = styled.div`
   display: flex;
   margin: 20px auto 0px;
   justify-content: space-between;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 `;
 
 const NevbarLogo = styled.img`
