@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const BannerArea = styled.div`
   width: 100%;
+  position: relative;
   background-color: #1c2230;
-  padding: 0px 30px;
+  padding: 30px 30px 0px;
 `;
 
 const BannerHeading = styled.h1`
@@ -22,11 +23,9 @@ const BannerContainer = styled.div`
   max-width: 1440px;
   display: flex;
   margin: 0 auto;
-  position: relative;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  overflow: hidden;
 `;
 
 const BannerImage = styled.img`
@@ -47,10 +46,12 @@ const BannerButton = styled.button`
 `;
 
 const BannerCurvImage = styled.img`
-  z-index: 1;
+  width: 100%;
+  height: 350px;
+  z-index: 2;
   position: absolute;
-  bottom: -150px;
-  /* background-color: aqua; */
+  bottom: -40px;
+  background-color: aqua;
 `;
 
 export {
