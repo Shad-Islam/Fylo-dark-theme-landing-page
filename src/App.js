@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Global />
+      <Navbar />
+      <Banner />
       <Container>
-        <Navbar />
-        <Banner />
         <Feature />
         <Description />
         <Testimonial />

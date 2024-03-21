@@ -1,11 +1,17 @@
 import styled from "styled-components";
 
-const NavbarContainer = styled.div`
+const NavArea = styled.div`
   width: 100%;
+  background-color: aqua;
+  padding: 10px 30px;
+`;
+
+const NavbarContainer = styled.div`
+  max-width: 1440px;
   display: flex;
-  margin-top: 20px;
+  margin: 20px auto 0px;
   justify-content: space-between;
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
 `;
 
 const NevbarLogo = styled.img`
@@ -31,4 +37,4 @@ const MenuText = styled.a`
   }
 `;
 
-export { NevbarLogo, MenuText, MenuContainer, NavbarContainer };
+export { NavArea, NevbarLogo, MenuText, MenuContainer, NavbarContainer };
