@@ -42,7 +42,12 @@ const BannerButton = styled.button`
   border-radius: 15px;
   color: hsl(0, 0%, 100%);
   z-index: 10;
-  background-color: hsl(176, 68%, 64%);
+  transition: all linear 0.7s;
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+
+  &:hover {
+    background: hsl(176, 68%, 64%);
+  }
 `;
 
 const BannerCurvImage = styled.img`
@@ -51,7 +56,6 @@ const BannerCurvImage = styled.img`
   z-index: 2;
   position: absolute;
   bottom: -40px;
-  background-color: aqua;
 `;
 
 export {
