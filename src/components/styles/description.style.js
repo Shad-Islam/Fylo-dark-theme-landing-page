@@ -32,7 +32,6 @@ const DescriptionText = styled.p`
   color: hsl(0, 0%, 85%);
 `;
 const DescriptionLink = styled.a`
-  text-decoration: none;
   color: hsl(176, 68%, 64%);
 `;
 
