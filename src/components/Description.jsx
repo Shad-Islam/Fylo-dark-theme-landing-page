@@ -9,6 +9,7 @@ import {
   DescriptionImagePart,
 } from "./styles/description.style";
 import StayProductive from "../images/illustration-stay-productive.png";
+import ArrowImage from "../images/icon-arrow.svg";
 
 function Description() {
   return (
@@ -35,7 +36,9 @@ function Description() {
             <br />
             collaboration. No email attachments required.
           </DescriptionText>
-          <DescriptionLink href="#">See how Fylo works</DescriptionLink>
+          <DescriptionLink href="#">See how Fylo works
+          <img src={ArrowImage} alt="" />
+          </DescriptionLink>
         </DescriptionTextPart>
       </DescriptionContainer>
     </>

@@ -33,6 +33,9 @@ const DescriptionText = styled.p`
 `;
 const DescriptionLink = styled.a`
   color: hsl(176, 68%, 64%);
+  display: flex;
+  gap: 10px;
+  
 `;
 
 export {
