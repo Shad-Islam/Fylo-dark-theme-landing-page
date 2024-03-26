@@ -1,5 +1,9 @@
 import React from "react";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneVolume } from "react-icons/fa6";
+import { FaEnvelope } from "react-icons/fa";
 import {
+  FooterRow,
   FooterNav,
   FooterPhone,
   FooterAddress,
@@ -21,14 +25,22 @@ function Footer() {
           <FooterCols>
             {/* address */}
             <FooterAddress>
+              <FaMapMarkerAlt />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore gagna aliqua
             </FooterAddress>
 
             {/* email and phone number  */}
             <FooterPhone>
-              <p>+1-543-123-4567</p>
-              <p>examole@tvio.com</p>
+              <FooterRow>
+                <FaPhoneVolume />
+                <p>+1-543-123-4567</p>
+              </FooterRow>
+
+              <FooterRow>
+                <FaEnvelope />
+                <p>examole@tvio.com</p>
+              </FooterRow>
             </FooterPhone>
 
             {/* quick nav  */}
@@ -50,9 +62,7 @@ function Footer() {
               </ul>
             </FooterNav>
 
-            <FooterSocialIcon>
-              
-            </FooterSocialIcon>
+            <FooterSocialIcon></FooterSocialIcon>
 
             {/* social media link */}
           </FooterCols>

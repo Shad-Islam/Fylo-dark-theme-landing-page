@@ -26,6 +26,10 @@ const FooterCol = styled.div`
   width: 100px;
   background-color: blue;
 `;
+const FooterRow = styled.div`
+  gap: 20px;
+  display: flex;
+`;
 const FooterAddress = styled.div`
   width: 300px;
   background-color: blue;
@@ -33,6 +37,7 @@ const FooterAddress = styled.div`
 const FooterPhone = styled.div`
   width: 200px;
   background-color: blue;
+  color: #ffffff;
 `;
 const FooterNav = styled.div`
   width: 200px;
@@ -44,6 +49,7 @@ const FooterSocialIcon = styled.div`
 `;
 
 export {
+  FooterRow,
   FooterSocialIcon,
   FooterNav,
   FooterPhone,
