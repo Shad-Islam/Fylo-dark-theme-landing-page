@@ -1,20 +1,19 @@
 import React from "react";
+import logo from "../images/logo.svg";
+import { FaEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa";
 import {
   FooterRow,
   FooterNav,
+  FooterArea,
+  FooterCols,
+  FooterLogo,
   FooterPhone,
   FooterAddress,
-  FooterArea,
-  FooterCol,
-  FooterCols,
   FooterContainer,
-  FooterLogo,
   FooterSocialIcon,
 } from "./styles/footer.style";
-import logo from "../images/logo.svg";
 
 function Footer() {
   return (
@@ -25,9 +24,16 @@ function Footer() {
           <FooterCols>
             {/* address */}
             <FooterAddress>
-              <FaMapMarkerAlt />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore gagna aliqua
+              <FooterRow>
+                <div>
+                  <FaMapMarkerAlt />
+                </div>
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore gagna aliqua
+                </p>
+              </FooterRow>
             </FooterAddress>
 
             {/* email and phone number  */}

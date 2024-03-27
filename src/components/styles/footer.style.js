@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 const FooterArea = styled.div`
-  height: 500px;
   width: 100%;
+  height: 500px;
   background-color: hsl(216, 53%, 9%);
 `;
 const FooterContainer = styled.div`
   height: 100%;
   width: 1440px;
-  background-color: aqua;
   margin: 0 auto;
+  background-color: aqua;
 `;
 
 const FooterLogo = styled.img`
@@ -19,13 +19,12 @@ const FooterLogo = styled.img`
 const FooterCols = styled.div`
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
   background-color: orange;
+  justify-content: space-between;
 `;
-const FooterCol = styled.div`
-  width: 100px;
-  background-color: blue;
-`;
+
 const FooterRow = styled.div`
   gap: 20px;
   display: flex;
@@ -36,8 +35,8 @@ const FooterAddress = styled.div`
 `;
 const FooterPhone = styled.div`
   width: 200px;
-  background-color: blue;
   color: #ffffff;
+  background-color: blue;
 `;
 const FooterNav = styled.div`
   width: 200px;
@@ -50,13 +49,12 @@ const FooterSocialIcon = styled.div`
 
 export {
   FooterRow,
-  FooterSocialIcon,
   FooterNav,
-  FooterPhone,
-  FooterAddress,
   FooterCols,
-  FooterCol,
   FooterLogo,
   FooterArea,
+  FooterPhone,
+  FooterAddress,
   FooterContainer,
+  FooterSocialIcon,
 };
