@@ -8,11 +8,13 @@ import {
   FooterNav,
   FooterArea,
   FooterCols,
+  FooterList,
   FooterLogo,
   FooterPhone,
   FooterAddress,
   FooterContainer,
   FooterSocialIcon,
+  FooterListItem,
 } from "./styles/footer.style";
 
 function Footer() {
@@ -51,21 +53,29 @@ function Footer() {
 
             {/* quick nav  */}
             <FooterNav>
-              <ul>
-                <li>About Us</li>
-                <li>Jobs</li>
-                <li>Press</li>
-                <li>Blog</li>
-              </ul>
+              <FooterList>
+                <li>
+                  <FooterListItem href="#"> About Us</FooterListItem>
+                </li>
+                <li>
+                  <FooterListItem href="#">Jobs</FooterListItem>
+                </li>
+                <li>
+                  <FooterListItem href="#"> Press</FooterListItem>
+                </li>
+                <li>
+                  <FooterListItem href="#">Blog</FooterListItem>
+                </li>
+              </FooterList>
             </FooterNav>
 
             {/* quick nav  */}
             <FooterNav>
-              <ul>
-                <li>Contact Us</li>
-                <li>Terms</li>
-                <li>Privacy</li>
-              </ul>
+              <FooterList>
+                <FooterListItem href="#">Contact Us</FooterListItem>
+                <FooterListItem href="#">Terms</FooterListItem>
+                <FooterListItem href="#">Privacy</FooterListItem>
+              </FooterList>
             </FooterNav>
 
             <FooterSocialIcon></FooterSocialIcon>

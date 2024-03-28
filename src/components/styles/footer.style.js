@@ -34,8 +34,10 @@ const FooterAddress = styled.div`
   background-color: blue;
 `;
 const FooterPhone = styled.div`
+  gap: 10px;
+  display: flex;
   width: 200px;
-  color: #ffffff;
+  flex-direction: column;
   background-color: blue;
 `;
 const FooterNav = styled.div`
@@ -47,14 +49,27 @@ const FooterSocialIcon = styled.div`
   background-color: blue;
 `;
 
+const FooterList = styled.ul`
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+const FooterListItem = styled.a`
+  color: white;
+  text-decoration: none;
+`;
+
 export {
   FooterRow,
   FooterNav,
   FooterCols,
+  FooterList,
   FooterLogo,
   FooterArea,
   FooterPhone,
   FooterAddress,
+  FooterListItem,
   FooterContainer,
   FooterSocialIcon,
 };
