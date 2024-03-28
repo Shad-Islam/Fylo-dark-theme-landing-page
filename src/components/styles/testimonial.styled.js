@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const TestimonialContainer = styled.div`
   width: 100%;
-  margin: 100px 0px 200px;
+  margin: 100px 0px 250px;
   /* background-color: antiquewhite; */
 `;
 const TestimonialImage = styled.img`
