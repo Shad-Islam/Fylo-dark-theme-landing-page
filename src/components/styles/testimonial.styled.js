@@ -25,8 +25,10 @@ const TestimonialCard = styled.div`
   background-color: hsl(219, 30%, 18%);
 `;
 const TestimonialText = styled.p`
-  color: hsl(0, 0%, 85%);
   font-size: 15px;
+  font-weight: 400;
+  color: hsl(0, 0%, 90%);
+  font-family: "Open Sans";
 `;
 const TestimonialProfile = styled.div`
   width: 100%;
@@ -50,23 +52,27 @@ const TestimonialProfileTextSection = styled.div`
   justify-content: center;
 `;
 const TestimonialProfileName = styled.h5`
+  font-weight: 700;
+  font-family: "Raleway";
   color: hsl(0, 0%, 100%);
 `;
 const TestimonialProfileBio = styled.p`
   font-size: 12px;
-  color: hsl(0, 0%, 85%);
+  font-weight: 400;
+  color: hsl(0, 0%, 90%);
+  font-family: "Open Sans";
 `;
 
 export {
-  TestimonialImage,
-  TestimonialCards,
   TestimonialText,
   TestimonialCard,
+  TestimonialCards,
+  TestimonialImage,
   TestimonialProfile,
   TestimonialContainer,
-  TestimonialProfileImage,
-  TestimonialProfileName,
   TestimonialProfileBio,
-  TestimonialProfileImageSection,
+  TestimonialProfileName,
+  TestimonialProfileImage,
   TestimonialProfileTextSection,
+  TestimonialProfileImageSection,
 };

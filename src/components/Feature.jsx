@@ -2,11 +2,11 @@ import React from "react";
 import {
   FeaturesRow,
   FeaturesItem,
+  FeaturesItemIcon,
   FeaturesItemText,
   FeaturesItemImage,
   FeaturesContainer,
   FeaturesItemTitle,
-  FeaturesItemIcon,
 } from "./styles/feature.style";
 
 import iconAnyFile from "../images/icon-any-file.svg";

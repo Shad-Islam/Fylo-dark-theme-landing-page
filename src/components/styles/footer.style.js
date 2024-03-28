@@ -32,19 +32,26 @@ const FooterRow = styled.div`
 `;
 const FooterAddress = styled.div`
   width: 300px;
+  font-weight: 400;
+  font-family: "Open Sans";
+
   /* background-color: blue; */
 `;
 const FooterPhone = styled.div`
   gap: 10px;
   width: 200px;
   display: flex;
+  font-weight: 400;
   align-items: end;
   flex-direction: column;
+  font-family: "Open Sans";
   /* background-color: blue; */
 `;
 const FooterNav = styled.div`
   width: 200px;
+  font-weight: 400;
   padding-left: 50px;
+  font-family: "Open Sans";
   /* background-color: blue; */
 `;
 

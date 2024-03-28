@@ -25,25 +25,29 @@ const DescriptionTextPart = styled.div`
 `;
 const DescriptionHeading = styled.h2`
   font-size: 30px;
+  font-weight: 700;
+  font-family: "Raleway";
   color: hsl(0, 0%, 100%);
+
   /* background-color: bisque; */
 `;
 const DescriptionText = styled.p`
-  color: hsl(0, 0%, 85%);
+  font-weight: 400;
+  color: hsl(0, 0%, 90%);
+  font-family: "Open Sans";
 `;
 const DescriptionLink = styled.a`
-  color: hsl(176, 68%, 64%);
-  display: flex;
   gap: 10px;
-  
+  display: flex;
+  color: hsl(176, 68%, 64%);
 `;
 
 export {
-  DescriptionImagePart,
   DescriptionText,
   DescriptionLink,
   DescriptionImage,
   DescriptionHeading,
   DescriptionTextPart,
   DescriptionContainer,
+  DescriptionImagePart,
 };

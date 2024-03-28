@@ -45,9 +45,13 @@ const FeaturesItemImage = styled.img`
 `;
 const FeaturesItemTitle = styled.h2`
   color: hsl(0, 0%, 100%);
+  font-family: "Raleway";
+  font-weight: 700;
 `;
 const FeaturesItemText = styled.p`
+  font-weight: 400;
   color: hsl(0, 0%, 90%);
+  font-family: "Open Sans";
 `;
 
 export {

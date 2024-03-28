@@ -7,8 +7,8 @@ const NavArea = styled.div`
 `;
 
 const NavbarContainer = styled.div`
-  max-width: 1440px;
   display: flex;
+  max-width: 1440px;
   margin: 20px auto 0px;
   justify-content: space-between;
   /* background-color: aquamarine; */
@@ -30,6 +30,8 @@ const MenuContainer = styled.div`
 const MenuText = styled.a`
   color: hsl(0, 0%, 100%);
   text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 400;
 
   &:hover {
     text-decoration: underline;

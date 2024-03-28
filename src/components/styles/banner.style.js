@@ -9,20 +9,24 @@ const BannerArea = styled.div`
 
 const BannerHeading = styled.h1`
   z-index: 10;
+  font-weight: 700;
   margin-bottom: 40px;
+  font-family: "Raleway";
   color: hsl(0, 0%, 100%);
 `;
 
 const BannerText = styled.h4`
   z-index: 10;
+  font-weight: 400;
   line-height: 25px;
   color: hsl(0, 0%, 85%);
+  font-family: "Open Sans";
 `;
 
 const BannerContainer = styled.div`
-  max-width: 1440px;
   display: flex;
   margin: 0 auto;
+  max-width: 1440px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -33,15 +37,17 @@ const BannerImage = styled.img`
 `;
 
 const BannerButton = styled.button`
+  z-index: 10;
   border: 0px;
   outline: 0px;
   margin: 50px;
   font-size: 15px;
   cursor: pointer;
+  font-weight: 700;
   padding: 10px 40px;
   border-radius: 15px;
+  font-family: "Raleway";
   color: hsl(0, 0%, 100%);
-  z-index: 10;
   transition: all linear 0.7s;
   background: linear-gradient(to right, #65e2d9, #339ecc);
 

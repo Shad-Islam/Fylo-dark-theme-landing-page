@@ -19,8 +19,8 @@ import {
   FooterListItem,
   FooterContainer,
   FooterSocialIcon,
-  FooterSocialIconBorder,
   FooterSocialIcons,
+  FooterSocialIconBorder,
 } from "./styles/footer.style";
 
 function Footer() {
@@ -49,7 +49,7 @@ function Footer() {
             <FooterPhone>
               <FooterRow>
                 <FaPhoneVolume />
-                <p>+1-543-123-4567</p>
+                <p>+1 -543 -123 -4567</p>
               </FooterRow>
 
               <FooterRow>

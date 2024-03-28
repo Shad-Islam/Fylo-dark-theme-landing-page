@@ -2,15 +2,15 @@ import React from "react";
 import {
   TestimonialText,
   TestimonialCard,
-  TestimonialProfile,
-  TestimonialContainer,
-  TestimonialProfileImage,
-  TestimonialProfileName,
-  TestimonialProfileBio,
-  TestimonialProfileImageSection,
-  TestimonialProfileTextSection,
   TestimonialCards,
   TestimonialImage,
+  TestimonialProfile,
+  TestimonialContainer,
+  TestimonialProfileBio,
+  TestimonialProfileName,
+  TestimonialProfileImage,
+  TestimonialProfileTextSection,
+  TestimonialProfileImageSection,
 } from "./styles/testimonial.styled";
 import Quotes from "../images/bg-quotes.png";
 import profile1 from "../images/profile1.jpg";

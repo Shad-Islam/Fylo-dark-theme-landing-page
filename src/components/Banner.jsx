@@ -29,7 +29,7 @@ function Banner() {
             <br></br>
             friends tamily, and co-workers.
           </BannerText>
-          <BannerButton>Get started</BannerButton>
+          <BannerButton>Get Started</BannerButton>
           <BannerCurvImage src={curvImage} />
         </BannerContainer>
       </BannerArea>
