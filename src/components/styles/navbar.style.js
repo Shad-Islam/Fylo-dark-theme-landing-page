@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 const NavArea = styled.div`
   width: 100%;
-  background-color: #1c2230;
-  max-width: 1440px;
   padding: 10px 30px;
+  background-color: #1c2230;
 `;
 
 const NavbarContainer = styled.div`

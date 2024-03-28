@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const EmailContainer = styled.div`
   gap: 30px;
-  width: 70%;
+  width: 60%;
   height: 250px;
   margin: 0 auto;
   border-radius: 5px;
