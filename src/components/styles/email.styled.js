@@ -12,6 +12,10 @@ const EmailContainer = styled.div`
   align-items: center;
   text-align: center;
   background-color: hsl(217, 28%, 15%);
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
 `;
 
 const EmailHeading = styled.h2`

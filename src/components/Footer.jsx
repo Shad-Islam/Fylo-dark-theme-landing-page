@@ -1,4 +1,5 @@
 import React from "react";
+import Email from "./Email";
 import logo from "../images/logo.svg";
 import { FaTwitter } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -26,6 +27,7 @@ function Footer() {
   return (
     <>
       <FooterArea>
+        <Email />
         <FooterContainer>
           <FooterLogo src={logo} />
           <FooterCols>

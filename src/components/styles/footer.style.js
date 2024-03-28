@@ -3,13 +3,13 @@ import styled from "styled-components";
 const FooterArea = styled.div`
   width: 100%;
   padding: 10px;
-
+  position: relative;
   background-color: hsl(216, 53%, 9%);
 `;
 const FooterContainer = styled.div`
   max-width: 1440px;
   /* background-color: red; */
-  margin: 200px auto 100px;
+  margin: 220px auto 100px;
 `;
 
 const FooterLogo = styled.img`
