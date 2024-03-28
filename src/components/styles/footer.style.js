@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 const FooterArea = styled.div`
   width: 100%;
-  height: 500px;
+  padding: 10px;
+
   background-color: hsl(216, 53%, 9%);
 `;
 const FooterContainer = styled.div`
-  height: 100%;
-  width: 1440px;
-  margin: 0 auto;
-  /* background-color: aqua; */
+  max-width: 1440px;
+  /* background-color: red; */
+  margin: 200px auto 100px;
 `;
 
 const FooterLogo = styled.img`
@@ -20,6 +20,7 @@ const FooterCols = styled.div`
   width: 100%;
   display: flex;
   font-size: 14px;
+  margin-top: 50px;
   color: hsl(0, 0%, 100%);
   /* background-color: orange; */
   justify-content: space-between;
@@ -35,21 +36,15 @@ const FooterAddress = styled.div`
 `;
 const FooterPhone = styled.div`
   gap: 10px;
-  display: flex;
   width: 200px;
+  display: flex;
+  align-items: end;
   flex-direction: column;
   /* background-color: blue; */
 `;
 const FooterNav = styled.div`
   width: 200px;
-  /* background-color: blue; */
-`;
-const FooterSocialIcon = styled.div`
-  gap: 20px;
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 50px;
   /* background-color: blue; */
 `;
 
@@ -63,11 +58,26 @@ const FooterListItem = styled.a`
   color: white;
   text-decoration: none;
 `;
+
+const FooterSocialIcons = styled.div`
+  gap: 20px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  /* background-color: blue; */
+`;
+
 const FooterSocialIconBorder = styled.div`
   padding: 10px;
-  border: 1px solid #fff;
   display: inline;
   border-radius: 50%;
+  border: 1px solid #fff;
+`;
+
+const FooterSocialIcon = styled.a`
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
 `;
 
 export {
@@ -82,5 +92,6 @@ export {
   FooterListItem,
   FooterContainer,
   FooterSocialIcon,
+  FooterSocialIcons,
   FooterSocialIconBorder,
 };

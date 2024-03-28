@@ -19,6 +19,7 @@ import {
   FooterContainer,
   FooterSocialIcon,
   FooterSocialIconBorder,
+  FooterSocialIcons,
 } from "./styles/footer.style";
 
 function Footer() {
@@ -83,24 +84,24 @@ function Footer() {
             </FooterNav>
 
             {/* social media link */}
-            <FooterSocialIcon>
-              <FooterListItem href="#">
+            <FooterSocialIcons>
+              <FooterSocialIcon href="#">
                 <FooterSocialIconBorder>
                   <FaFacebookF />
                 </FooterSocialIconBorder>
-              </FooterListItem>
+              </FooterSocialIcon>
 
-              <FooterListItem href="#">
+              <FooterSocialIcon href="#">
                 <FooterSocialIconBorder>
                   <FaTwitter />
                 </FooterSocialIconBorder>
-              </FooterListItem>
-              <FooterListItem href="#">
+              </FooterSocialIcon>
+              <FooterSocialIcon href="#">
                 <FooterSocialIconBorder>
                   <FaInstagram />
                 </FooterSocialIconBorder>
-              </FooterListItem>
-            </FooterSocialIcon>
+              </FooterSocialIcon>
+            </FooterSocialIcons>
           </FooterCols>
         </FooterContainer>
       </FooterArea>
