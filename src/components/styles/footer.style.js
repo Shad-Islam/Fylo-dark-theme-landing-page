@@ -9,11 +9,11 @@ const FooterContainer = styled.div`
   height: 100%;
   width: 1440px;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
 `;
 
 const FooterLogo = styled.img`
-  background-color: red;
+  /* background-color: red; */
 `;
 
 const FooterCols = styled.div`
@@ -21,7 +21,7 @@ const FooterCols = styled.div`
   display: flex;
   font-size: 14px;
   color: hsl(0, 0%, 100%);
-  background-color: orange;
+  /* background-color: orange; */
   justify-content: space-between;
 `;
 
@@ -31,33 +31,43 @@ const FooterRow = styled.div`
 `;
 const FooterAddress = styled.div`
   width: 300px;
-  background-color: blue;
+  /* background-color: blue; */
 `;
 const FooterPhone = styled.div`
   gap: 10px;
   display: flex;
   width: 200px;
   flex-direction: column;
-  background-color: blue;
+  /* background-color: blue; */
 `;
 const FooterNav = styled.div`
   width: 200px;
-  background-color: blue;
+  /* background-color: blue; */
 `;
 const FooterSocialIcon = styled.div`
+  gap: 20px;
   width: 200px;
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
 `;
 
 const FooterList = styled.ul`
-  list-style: none;
-  display: flex;
-  flex-direction: column;
   gap: 10px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
 `;
 const FooterListItem = styled.a`
   color: white;
   text-decoration: none;
+`;
+const FooterSocialIconBorder = styled.div`
+  padding: 10px;
+  border: 1px solid #fff;
+  display: inline;
+  border-radius: 50%;
 `;
 
 export {
@@ -72,4 +82,5 @@ export {
   FooterListItem,
   FooterContainer,
   FooterSocialIcon,
+  FooterSocialIconBorder,
 };

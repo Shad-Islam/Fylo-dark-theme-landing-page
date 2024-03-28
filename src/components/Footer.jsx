@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../images/logo.svg";
+import { FaTwitter } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import {
@@ -12,9 +15,10 @@ import {
   FooterLogo,
   FooterPhone,
   FooterAddress,
+  FooterListItem,
   FooterContainer,
   FooterSocialIcon,
-  FooterListItem,
+  FooterSocialIconBorder,
 } from "./styles/footer.style";
 
 function Footer() {
@@ -78,9 +82,25 @@ function Footer() {
               </FooterList>
             </FooterNav>
 
-            <FooterSocialIcon></FooterSocialIcon>
-
             {/* social media link */}
+            <FooterSocialIcon>
+              <FooterListItem href="#">
+                <FooterSocialIconBorder>
+                  <FaFacebookF />
+                </FooterSocialIconBorder>
+              </FooterListItem>
+
+              <FooterListItem href="#">
+                <FooterSocialIconBorder>
+                  <FaTwitter />
+                </FooterSocialIconBorder>
+              </FooterListItem>
+              <FooterListItem href="#">
+                <FooterSocialIconBorder>
+                  <FaInstagram />
+                </FooterSocialIconBorder>
+              </FooterListItem>
+            </FooterSocialIcon>
           </FooterCols>
         </FooterContainer>
       </FooterArea>
